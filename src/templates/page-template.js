@@ -6,6 +6,7 @@ import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
+import Header from "../components/Header";
 
 type Props = {
   data: {
@@ -22,12 +23,15 @@ const PageTemplate = ({ data }: Props) => {
   const socialImageUrl = socialImage?.publicURL;
 
   return (
+    <>
+    <Header />
     <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>
     </Layout>
+    </>
   );
 };
 
@@ -40,9 +44,6 @@ export const query = graphql`
         title
         date
         description
-        socialImage {
-          publicURL
-        }
       }
     }
   }

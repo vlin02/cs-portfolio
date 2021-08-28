@@ -8,6 +8,7 @@ import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
 import type { AllMarkdownRemark, PageContext } from '../types';
+import Header from "../components/Header";
 
 type Props = {
   data: AllMarkdownRemark,
@@ -30,6 +31,8 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   const pageTitle = currentPage > 0 ? `All Posts tagged as "${tag}" - Page ${currentPage} - ${siteTitle}` : `All Posts tagged as "${tag}" - ${siteTitle}`;
 
   return (
+    <>
+    <Header />
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
       <Page title={tag}>
@@ -42,6 +45,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
         />
       </Page>
     </Layout>
+    </>
   );
 };
 

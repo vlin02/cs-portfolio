@@ -4,10 +4,14 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+### Hello Hello!
+I’m a sophomore at UCLA currently pursuing a B.S. in CS. To me, programming is all about exploration, which you may have noticed from an off-putting randomness in projects I’m involved with.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+### I'm obssessed with
+gaining new, completely unecessary skills! Right now I’m **deeply** invested in:
+- **Learning the piano** *~ In hopes that I can someday play my [favorite tunes](/pages/music)*🤞
+- **Speaking fluent Japanese** *~ Plans to Study Abroad TBA* 🇯🇵
+- **Doing the - uh - splits??** *~ It just looks … so cool!*
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
-
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+### When I say this 
+I might sound a tad koo-koo, but I love going on long runs. It’s the scenery that keeps me going back!

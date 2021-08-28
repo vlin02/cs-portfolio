@@ -1,0 +1,23 @@
+.header {
+    background: #3282b8;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    left: 0;
+    right: 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.loop {
+    height: 26px;
+}
