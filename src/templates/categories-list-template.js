@@ -15,7 +15,7 @@ const CategoriesListTemplate = () => {
   return (
     <>
       <Header />
-      <Layout title={pageTitle} description={siteSubtitle}>
+      <Layout title={`Categories - ${title}`} description={subtitle}>
         <Sidebar isIndex />
         <Page title="Categories">
           <ul>
