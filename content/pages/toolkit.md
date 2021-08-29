@@ -5,7 +5,7 @@ socialImage: "/media/image-2.jpg"
 ---
 
 ### Noticed the banner ☝️?
-Hopefully one of those developer jokes made any sense. Here're the explanations:
+Any of those developer jokes make sense? Some explanations:
 - React: [Hooks](https://reactjs.org/docs/hooks-reference.html) are one reusability feature of the framework I can't live without
 - GraphQL: REST API still has its place! But GraphQL's flexibility is jaw dropping!
 - AWS: Honesty, its over 200 services was intimidating when I first started!

@@ -60,8 +60,7 @@ export const query = graphql`
     allMarkdownRemark(
         limit: $postsLimit,
         skip: $postsOffset,
-        filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "post" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
+        filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "post" }, draft: { ne: true } } }
       ){
       edges {
         node {
@@ -71,9 +70,7 @@ export const query = graphql`
           }
           frontmatter {
             title
-            date
             category
-            description
           }
         }
       }

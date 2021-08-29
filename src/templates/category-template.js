@@ -38,7 +38,6 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
       <Header />
       <Layout title={pageTitle} description={siteSubtitle}>
         <Sidebar isIndex />
-        <Sidebar />
         <Page title={category}>
           <Feed edges={edges} />
         </Page>
@@ -57,19 +56,22 @@ export const query = graphql`
           draft: { ne: true }
         }
       }
-      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
+          html
           fields {
             categorySlug
             slug
           }
           frontmatter {
-            date
-            description
             category
             title
+            end_month
+            end_year
+            socialImage{
+              publicURL
+            }
           }
         }
       }

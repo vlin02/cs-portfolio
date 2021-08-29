@@ -41,19 +41,23 @@ export const query = graphql`
   query IndexTemplate {
     allMarkdownRemark(
       filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
+          html
           fields {
             slug
             categorySlug
           }
           frontmatter {
             title
-            date
+            end_month
+            end_year
+            tags
             category
-            description
+            socialImage {
+              publicURL
+            }
           }
         }
       }
