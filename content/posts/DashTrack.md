@@ -14,4 +14,4 @@ socialImage: "/projects/dash-track-icon.png"
 ---
 A quarantine-days chrome extension for the adventurous food delivery user to track their favorite restaurants on DoorDash (an unanswered feature request)
 
-[Github](https://github.com/vlin02/sagesaver)  [Chrome Store](https://chrome.google.com/webstore/detail/dashtrack-doordash-favori/lnphiciggjdjiilipbmlenmpdlpakhga)
+[Github](https://github.com/vlin02/dash-track)  [Chrome Store](https://chrome.google.com/webstore/detail/dashtrack-doordash-favori/lnphiciggjdjiilipbmlenmpdlpakhga)
