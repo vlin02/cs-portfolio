@@ -7,7 +7,7 @@ socialImage: "/media/image-2.jpg"
 ### Hello Hello!
 I’m a student at UCLA currently pursuing a B.S. in CS. To me, programming is all about exploration, which you'll observe from the off-putting randomness in projects I’m involved with.
 
-### I'm obssessed with
+### I'm obsessed with
 gaining new, completely unecessary skills! Right now I’m **deeply** invested in:
 - **Learning the piano** *~ In hopes that I can someday play my [favorite tunes](/pages/music)*🤞
 - **Speaking OK Japanese** *~ Plans to Study Abroad TBA* 🇯🇵
