@@ -12,6 +12,6 @@ draft: false
 slug: "sagesaver"
 socialImage: "/projects/sagesaver.png"
 ---
-A secure, deployable AWS ML Environment with idle detection and Jupyter real-time collaboration. Inspired by my own exprience as a data science lead using SageMaker
+A secure, deployable AWS ML Environment with idle detection and Jupyter real-time collaboration. Inspired by my own experience as a data science lead using SageMaker
 
 [Github](https://github.com/vlin02/sagesaver)
